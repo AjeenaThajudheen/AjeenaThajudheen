@@ -1,0 +1,108 @@
+
+body, h1, h2, h3, p, ul, li, a, label {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #444;
+    background: url('event plan.jpg') center center/cover;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 1em 2em;
+}
+nav .logo {
+    font-family: Copperplate, Papyrus, fantasy;
+    color:grey;
+    font-size: 2.5em;
+}
+
+nav a {
+    color: grey;
+  
+}
+
+.section {
+    padding: 40px 20px;
+    background:white;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1000px; 
+    transition: transform 0.3s ease-in-out;
+}
+.section:hover {
+    transform: scale(1.1);
+}
+.section h2 {
+    font-size: 2em;
+    font-family: Copperplate, Papyrus, fantasy;
+    color: brown;
+    text-align:center;
+    margin-bottom: 20px;
+}
+.section p, .section h3 {
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+.service h3 {
+    font-size: 1.2em;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.portfolio-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.portfolio-item {
+    width: calc(50% - 10px);
+    text-align: center;
+}
+.portfolio-item img {
+    width: 40%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.portfolio-item h3 {
+    font-family: Copperplate, Papyrus, fantasy;
+    margin-top: 10px;
+    color: black;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: rgba(240, 240, 240, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.testimonial p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.testimonial h4 {
+    text-align: right;
+    font-family: Copperplate, Papyrus, fantasy;
+    color: black;
+}
